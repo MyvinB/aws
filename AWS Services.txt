@@ -1,0 +1,99 @@
+Notes for aws:
+
+Q1)What is an edge locations?
+
+Endpoints for aws which are used for caching content.(Consist of CloudFront and Amazon Contenet Delivery Network)
+*A region is a physical location in the world which consist of two or more availability zone.
+*An Az is one or more discrete datacentres each with redundant power,networking and connectivity,housed in seprate facilities
+
+Services:
+
+1)Compute
+
+EC2:Elastic Cloud Compute
+EC2 Container Service: Used for applications like docker containers 
+Elastic Beanstalk: Used for developers who dont understand aws and just want to upload their code.
+Lambda: Used for creating serverless app
+Lightsail:warded for people who dodnt want to use aws
+Batch: Do batch computing in the cloud.
+
+2)Storage
+
+S3: Simple Storage Service->Upload files in buckets
+EFS: Elastic File System
+Glacier: Data Archive
+Snowball :Used to directly store data into the aws server can be transfered to the datacentre normally used for data in terrabytes
+Storage Gateway: Virtual Machines install in the datacentre
+
+3)Databases:
+
+RDS: Relational Database System ->eg postgresql,mysql,
+DynamoDB:NonRelational Databases
+Elasticache:used for caching service
+RedShift: Complex query
+
+4)Migration Services:
+
+AWS Migration Hub:Visualizing the entire migration service
+Application Discovery Service:Way of tracking dependency used for your project
+Database Migration Service:
+Server Migration Service
+Snowball:
+
+5)Networking & Contenet Delivery
+
+VPC: Virtual Private Cloud-*(Understand well to pass the exam)
+CloudFront:Amazons content delivery network.
+Route53:DNS server
+Api Gatewat:
+Direct Connect:
+
+6)Developer Tools:*(doesnt come that much in exam)
+
+CodeStar:Collab tool 
+CodeCommit:like github
+CodeBuild: compile the stored code
+CodeDeploy: deploy the application
+CodePipeline:
+X-ray:debug and analyze your serverless applications
+Cloud9: its an ide can work directly from aws console.
+
+7)Management Tools:
+
+CloudWatch: *(Imp for sysops)Monitoring service.
+CloudFormation: Way of scripting infrastructure
+CloudTrail: Kind of a logger stores record data for a week
+Config: configuration of the aws environment
+OpsWork:
+Service Catalog: Manage catalog of itservices (used for fortune 500 companies) doesnt come in exam
+System Manager: (not imp)
+Trusted Advisor:*(IMP)an accountant for aws environment
+Managed Services:
+
+8)Media Services:
+
+Elastic Transcoder: sizes it for cross compatibility
+Media services doesnt come in exam
+
+9)Machine Learning(NOT IMP)
+
+SageMaker: Used for deepLearning
+Comprehend: sentiment learning basically product review
+DeepLens: Use an ai camera that doesnt use backend of aws server
+Lex:ai for chatting
+Machine Learning:
+Polly: Takes text and turns it into speech
+Rekognition:
+Amazon Translate:
+
+10)Analytics(NOt imp)
+
+Athena:datasciece type
+EMR:Big data solutions
+CloudSearch
+ElasticSearchService
+Kinesis
+QuickSight
+Datapipeline:moving data between differnt services
+Glue:
+

@@ -1,0 +1,21 @@
+IAM:Identity Access Manager->Allows to manage users and their level of access to the aws console.
+
+->
+Centralised Control of your aws account
+Shared Access to your aws account
+Granular permissions
+Identity Fedration (active directory
+MFA:Multifactor authentication
+Provide Temprorary access for users and devices and services if necessary
+Password rotation policy
+different aws service integration
+PCI DSS compliance
+
+STS-Security Token Service
+
+Federation: combining a list of users in one domain with a list of users from another domain.
+Identity Broker: a service that allows you to take an identity from A and join it to point B
+
+Q)Can you authenticate with active directory?
+Yes using SAML: Security Assertion Markup Language
+Q)First you authenticate with active directory then you get an sts token
