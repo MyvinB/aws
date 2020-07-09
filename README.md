@@ -13,3 +13,8 @@ systemctl enable httpd.service
   echo "HELLO WORLD from $(hostname -f) " > /var/www/html/index.html
 
 ```
+## Commands for installing an formating an ebs volume on to an ec2 instance
+
+```
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html
+```
